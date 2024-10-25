@@ -2,16 +2,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
 }
-.logo{
+
+.logo {
     width: 24px;
     padding-top: 15px;
+    margin-left: 27px;
 }
+
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin-top: 100px;
+    background-color: #f4f4f4; 
     padding: 0;
     display: flex;
     flex-direction: column;
@@ -19,13 +19,14 @@ body {
     justify-content: center;
     align-items: center;
     font-family: 'Cocogoose', 'Lato', sans-serif;
+    height: auto;
 }
 
 .container {
     background-color: white;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
+    padding-bottom: 80px;
     margin: 0;
     width: 400px;
     max-width: 500px;
@@ -40,27 +41,32 @@ body {
     margin-bottom: 0x;
     text-align: left;
     padding-top: 40px;
+    padding-left: 27px;
 }
-.abc{
+
+.abc {
     margin: 0;
     font-size: 40px;
     font-weight: bolder;
     color: #ff5722;
     text-align: left;
+    padding-left: 27px;
 }
 
 .subtitle {
     font-size: 16px;
-    color: #555;
+    color: black;
     margin-bottom: 20px;
-    text-align: left;
-    justify-content: left;
+    text-align: center;
+    text-align: justify;
     padding-top: 15px;
+    padding-left: 27px;
+    width: 370px;
 }
 
 .date {
-    font-size: 18px;
-    font-weight: bold;
+    font-size: 25px;
+    font-weight: bolder;
     color: #333;
     text-align: center;
     margin-bottom: 10px;
@@ -70,11 +76,26 @@ body {
     font-size: 14px;
     color: #777;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+}
+
+.pro {
+    margin-left: 105px;
+    height: 25px;
+    align-items: center;
+    border: 1px;
+    opacity: 0px;
+    border: 1px solid #E65242;
+    background-color: #E65242;
+    justify-content: center;
+    text-align: center;
+    width: 150px;
 }
 
 .program-container {
-    background-color: #2d2d2d;
+  
+    background-image: url("white.jpeg");
     border-radius: 8px;
     padding: 20px;
     color: white;
@@ -105,8 +126,18 @@ body {
     margin-right: 15px;
 }
 
+.xyz {
+    width: 27px;
+    height: 27px;
+    padding-left: 2px;
+}
+
 .program-text {
     flex-grow: 1;
+}
+
+.correct{
+    margin-left: 12px;
 }
 
 .program-title-red {
@@ -115,22 +146,209 @@ body {
     margin-bottom: 5px;
 }
 
-/* Mobile Responsive Styling */
-@media (max-width: 600px) {
-    .container, .program-container {
-        width: 95%;
-        padding: 15px;
-    }
+.program-title-red1 {
+    color: #ff5722;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-left: 13px;
+}
 
-    .title, .program-title {
-        font-size: 20px;
-    }
+.wrapper {
+    padding: 20px;
+    max-width: 430px;
+    margin: auto;
+}
 
-    .subtitle, .date, .location {
-        font-size: 14px;
-    }
+.title2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
 
-    .program-icon {
-        font-size: 24px;
-    }
+}
+
+.speaker {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #E65242;
+}
+
+.speaker img {
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+}
+
+.speaker-info {
+    text-align: left;
+}
+
+.speaker-info h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+
+.speaker-info p {
+    margin: 5px 0;
+    color: black;
+}
+
+.speaker-info p1 {
+    margin: 5px 0;
+    color: #E65242;
+}
+
+.more-button {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 360px;
+}
+
+.more-button:hover {
+    background-color: #f0f0f0;
+}
+
+.third {
+    background-color: #fff;
+    width: 400px;
+}
+
+.title1 {
+    font-size: 24px;
+    color: black;
+    margin-bottom: 0x;
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 70px;
+    border-bottom: 2px solid #E65242;
+    width: 200px;
+    font-weight: bolder;
+
+}
+
+footer {
+    /* Dark background color */
+    color: white;
+    /* Text color */
+    padding: 20px;
+    text-align: center;
+    margin-top: 0px;
+    width: 400px;
+    background-color: #404040;
+}
+
+.partner-section h2 {
+    font-family: 'Cocogoose', sans-serif;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid red;
+    display: inline-block;
+    font-weight: lighter;
+
+}
+
+.partner-logos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    /* Space between partner names */
+    flex-wrap: wrap;
+    width: 250px;
+    margin-left: 50px;
+}
+
+.partner-logo1 {
+    font-size: 18px;
+    /* Text size for partner names */
+    color: rgb(231, 221, 221);
+    /* Logo color */
+    /* All logos in uppercase */
+    font-weight: bold;
+}
+
+.partner-logo2 {
+    font-size: 18px;
+    /* Text size for partner names */
+    color: gray;
+    /* Logo color */
+    /* All logos in uppercase */
+    font-weight: bold;
+}
+
+.partner-logo3 {
+    font-size: 22px;
+    /* Text size for partner names */
+    color: #ddd;
+    /* Logo color */
+    /* All logos in uppercase */
+    font-weight: bolder;
+}
+
+.partner-logo4 {
+    font-size: 16px;
+    /* Text size for partner names */
+    color: #b5adad;
+    /* Logo color */
+    /* All logos in uppercase */
+    font-weight: lighter;
+}
+
+.partner-logo5 {
+    font-size: 16px;
+    /* Text size for partner names */
+    color: #a7a1a1;
+    /* Logo color */
+    /* All logos in uppercase */
+    font-weight: lighter;
+}
+
+.partner-logo:hover {
+    color: #FF5733;
+    /* Change color on hover */
+}
+
+.footer-bottom {
+    width: 400px;
+    flex-direction: row;
+    padding: 20px 0;
+    border-top: 1px solid #ccc;
+    background-color: white;
+    margin-top: 0;
+    text-align: left;
+    display: inline-block;
+}
+
+.footer-logo {
+    font-size: 14px;
+    margin-bottom: 10px;
+    display: inline-block;
+    width: 170px;
+    padding-left: 45px;
+    color: black;
+    font-weight: 800;
+
+}
+
+.footer-bottom p {
+    font-family: 'Lato', sans-serif;
+    color: #999;
+    margin: 0;
+    font-size: 14px;
+    display: inline-block;
+    width: 170px;
+    padding-left: 28px;
+    color: black;
+    font-weight: lighter;
 }
