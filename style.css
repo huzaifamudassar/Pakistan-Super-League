@@ -11,7 +11,7 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
-    margin-top: 200px;
+    margin-top: 100px;
     padding: 0;
     display: flex;
     flex-direction: column;
@@ -29,25 +29,33 @@ body {
     margin: 0;
     width: 400px;
     max-width: 500px;
-    height: 425px;
+    height: 450px;
     background-image: url("black.jpeg");
     background-repeat: no-repeat;
 }
 
 .title {
     font-size: 24px;
-    font-weight: bold;
-    color: #ff5722;
-    margin-bottom: 20px;
+    color: #E65242;
+    margin-bottom: 0x;
     text-align: left;
     padding-top: 40px;
+}
+.abc{
+    margin: 0;
+    font-size: 40px;
+    font-weight: bolder;
+    color: #ff5722;
+    text-align: left;
 }
 
 .subtitle {
     font-size: 16px;
     color: #555;
     margin-bottom: 20px;
-    text-align: center;
+    text-align: left;
+    justify-content: left;
+    padding-top: 15px;
 }
 
 .date {
@@ -71,7 +79,7 @@ body {
     padding: 20px;
     color: white;
     width: 400px;
-    margin-top: 0;
+    margin-top: 70;
 }
 
 .program-title {
